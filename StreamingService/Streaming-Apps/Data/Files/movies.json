@@ -1,0 +1,18 @@
+[
+  {
+      "MovieID": 1,
+      "Title": "The Dark Knight",
+      "Genre": "Horror, Drama",
+      "ReleaseDate": "10/11/2024",
+      "Duration": "02:24",
+      "Rating": 9.0,
+      "Description": "Batman debe enfrentar al Joker, un criminal que anarquiza Gotham.",
+      "Cast": "1, 2, 3",
+      "Director": "1",
+      "ImageUrl": "https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpg",
+      "TrailerUrl": "https://youtu.be/woXYTMLQuCQ?si=kDHh8rhKY_isYiYM",
+      "Type": "Movie",
+      "Views": 200,
+      "AgeRestriction": 13
+  }
+]

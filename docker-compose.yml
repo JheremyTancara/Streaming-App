@@ -1,13 +1,53 @@
+version: '3.4'
+
 services:
-  db:
-    container_name: mysql-database
-    image: mysql:9.0.1
+  # API Gateway
+  apigateway:
+    build:
+      context: ./ApiGateway/APIGatewayMovies
+    container_name: apigateway
+    ports:
+      - "5000:80"
+    depends_on:
+      - movieservice
+      - userservice
+    networks:
+      - app-network
+
+  # Movie Service
+  movieservice:
+    build:
+      context: ./StreamingService/Streaming-App
+    container_name: movieservice
+    ports:
+      - "5001:80"
+    networks:
+      - app-network
+
+  # User Service
+  userservice:
+    build:
+      context: ./UserService/AuthService
+    container_name: userservice
+    ports:
+      - "5002:80"
+    networks:
+      - app-network
+
+  # MySQL Database (Optional, if you need it for testing)
+  mysql:
+    image: mysql:5.7
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: moviesdb
     ports:
       - "3306:3306"
-    environment:
-      MYSQL_ROOT_PASSWORD: theboys
-      MYSQL_DATABASE: StreamingProject
-      MYSQL_USER: theboys
-      MYSQL_PASSWORD: theboys
     volumes:
-      - ./mysql:/var/lib/mysql
+      - ./mysql-data:/var/lib/mysql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

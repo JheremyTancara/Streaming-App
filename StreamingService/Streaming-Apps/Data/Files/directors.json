@@ -1,0 +1,82 @@
+[
+  {
+      "DirectorID": 1,
+      "Name": "Christopher Nolan",
+      "Age": 53,
+      "Bio": "Director known for his science fiction films.",
+      "ProfilePictureUrl": "https://example.com/nolan.jpg",
+      "NumberOfAwards": 5
+  },
+  {
+      "DirectorID": 2,
+      "Name": "Steven Spielberg",
+      "Age": 77,
+      "Bio": "Iconic director known for masterpieces like Jaws and E.T.",
+      "ProfilePictureUrl": "https://example.com/spielberg.jpg",
+      "NumberOfAwards": 8
+  },
+  {
+      "DirectorID": 3,
+      "Name": "Quentin Tarantino",
+      "Age": 61,
+      "Bio": "Director famous for his unique style and non-linear storytelling.",
+      "ProfilePictureUrl": "https://example.com/tarantino.jpg",
+      "NumberOfAwards": 3
+  },
+  {
+      "DirectorID": 4,
+      "Name": "James Cameron",
+      "Age": 69,
+      "Bio": "Director known for action and science fiction films like Avatar and Titanic.",
+      "ProfilePictureUrl": "https://example.com/james_cameron.jpg",
+      "NumberOfAwards": 7
+  },
+  {
+      "DirectorID": 5,
+      "Name": "Martin Scorsese",
+      "Age": 81,
+      "Bio": "Director famous for his crime dramas like Goodfellas and The Irishman.",
+      "ProfilePictureUrl": "https://example.com/martin_scorsese.jpg",
+      "NumberOfAwards": 6
+  },
+  {
+      "DirectorID": 6,
+      "Name": "Ridley Scott",
+      "Age": 86,
+      "Bio": "Director known for epic and science fiction films like Alien and Gladiator.",
+      "ProfilePictureUrl": "https://example.com/ridley_scott.jpg",
+      "NumberOfAwards": 2
+  },
+  {
+      "DirectorID": 7,
+      "Name": "David Fincher",
+      "Age": 62,
+      "Bio": "Director known for his unique visual style in films like Fight Club and Se7en.",
+      "ProfilePictureUrl": "https://example.com/david_fincher.jpg",
+      "NumberOfAwards": 4
+  },
+  {
+      "DirectorID": 8,
+      "Name": "Sofia Coppola",
+      "Age": 53,
+      "Bio": "Director known for her unique approach in independent cinema.",
+      "ProfilePictureUrl": "https://example.com/sofia_coppola.jpg",
+      "NumberOfAwards": 9
+  },
+  {
+      "DirectorID": 9,
+      "Name": "Pedro Almodóvar",
+      "Age": 74,
+      "Bio": "Spanish director known for his innovative and emotional work.",
+      "ProfilePictureUrl": "https://example.com/pedro_almodovar.jpg",
+      "NumberOfAwards": 1
+  },
+  {
+      "DirectorID": 10,
+      "Name": "Bong Joon-ho",
+      "Age": 54,
+      "Bio": "South Korean director known for Parasite and his social approach to cinema.",
+      "ProfilePictureUrl": "https://example.com/bong_joon_ho.jpg",
+      "NumberOfAwards": 4
+  }
+]

@@ -1,0 +1,13 @@
+services:
+  db:
+    container_name: mysql-database
+    image: mysql:9.0.1
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: theboys
+      MYSQL_DATABASE: StreamingProject
+      MYSQL_USER: theboys
+      MYSQL_PASSWORD: theboys
+    volumes:
+      - ./mysql:/var/lib/mysql
